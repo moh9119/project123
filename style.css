@@ -1,0 +1,402 @@
+nav {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 90%;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 0.5% 1%;
+    background-color: #cc9966;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+nav a:hover {
+    color: #cc9966;
+    background: none;
+}
+
+.logo-image {
+    width: 76px;
+    height: 76px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    margin-top: 30px;
+}
+
+.active {
+    background-color: white;
+    color: #cc9966;
+}
+
+.main_background {
+    background-image: url('images/main.png');
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.sign_background {
+    background-image: url('images/sign.png');
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #cc9966;
+    color: white;
+    text-align: center;
+}
+
+.home_image {
+    width: 80%;
+    height: 380px;
+}
+
+.home_button {
+    background-color: #d580ff;
+    padding: 10px 40px;
+    font-size: 30px;
+    display: inline-block;
+    width: 15%;
+    text-decoration: none;
+    color: black;
+    border-radius: 20px;
+}
+
+a.home_button:hover {
+    background-color: white;
+}
+
+.home_button1 {
+    background-color: white;
+    padding: 10px 40px;
+    font-size: 30px;
+    display: inline-block;
+    width: 80px;
+    text-decoration: none;
+    color: black;
+}
+
+.home_div {
+    width: 60%;
+}
+
+.home_div p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+.signup_div {
+    width: 50%;
+}
+
+.signup_div h1 {
+    color: #595959;
+}
+
+.signup_div a {
+    color: #3366ff;
+    text-decoration: none;
+}
+
+.input_c {
+    width: 60%;
+    margin-top: 2%;
+    padding: 2% 3%;
+    background-color: #cc9966;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.input_c_date {
+    width: 50%;
+    margin-top: 2%;
+    padding: 2% 3%;
+    background-color: #cc9966;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.input_c_select {
+    width: 66%;
+    margin-top: 2%;
+    padding: 2% 3%;
+    background-color: #cc9966;
+    border-style: none;
+    border-radius: 5px;
+}
+
+.signup_btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1% 8%;
+    color: white;
+    background-color: #595959;
+    border-style: none;
+    border-radius: 10px;
+}
+
+.signup_btn:hover {
+    background-color: white;
+    color: #595959;
+    cursor: pointer;
+}
+
+.signup_c_btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 1% 8%;
+    color: white;
+    background-color: #595959;
+    border-style: none;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.signup_c_btn:hover {
+    background-color: white;
+    color: #595959;
+    cursor: pointer;
+}
+
+.user_background {
+    background-image: url('images/background.png');
+    background-size: 100% 1000px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.user_btn {
+    margin-left: 2%;
+}
+
+.user_btn img {
+    border-style: solid;
+    border-color: transparent;
+    border-radius: 10px;
+}
+
+.user_btn img:hover {
+    border-color: #cc9966;
+}
+
+.city_btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 1% 8%;
+    color: white;
+    background-color: #595959;
+    border-style: none;
+    border-radius: 10px;
+    width: 250px;
+}
+
+.city_btn:hover {
+    background: none;
+    color: #595959;
+    cursor: pointer;
+}
+
+.users_btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 1% 6%;
+    color: white;
+    background-color: #8c8c8c;
+    border-style: none;
+    border-radius: 10px;
+    width: 430px;
+}
+
+.users_btn:hover {
+    background: none;
+    color: #8c8c8c;
+    cursor: pointer;
+}
+
+.filter_btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 1% 6%;
+    color: white;
+    background-color: #534a4a;
+    border-style: none;
+    border-radius: 10px;
+    width: 430px;
+}
+
+.filter_btn:hover {
+    background: none;
+    color: #534a4a;
+    cursor: pointer;
+}
+
+.city_btn {
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0.5% 6%;
+    color: white;
+    background-color: #534a4a;
+    border-style: none;
+    border-radius: 10px;
+    width: 430px;
+    margin-top: 20px;
+}
+
+.city_btn:hover {
+    background: none;
+    color: #534a4a;
+    cursor: pointer;
+}
+
+.chat_div {
+    width: 400px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    overflow-y: scroll;
+}
+
+.chat_div {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.chat_div::-webkit-scrollbar {
+    display: none;
+}
+
+.chat_div a {
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    background-color: #333333;
+    border-radius: 10px;
+    margin-top: 200px;
+    padding: 0.1% 30%;
+}
+
+.chat_div a:hover {
+    color: #333333;
+    background: none;
+}
+
+.chat_div h2 {
+    font-family: cursive;
+    font-size: 30px;
+    width: 200px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 12px;
+}
+
+.chat_div_2 {
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    opacity: 0.8;
+    overflow-y: scroll;
+}
+
+.chat_div_2 {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    overflow-y: scroll;
+}
+
+.chat_div_2::-webkit-scrollbar {
+    display: none;
+}
+
+.chat_div_2 b {
+    text-transform: uppercase;
+    color: #333333;
+    font-size: 23px;
+}
+
+.p_send {
+    padding: 1% 5%;
+    width: 200px;
+    background-color: #cc9966;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.p_recive {
+    padding: 1% 5%;
+    width: 200px;
+    background-color: #404040;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+    text-align: justify;
+}
+
+.chat_send_div {
+    width: 400px;
+}
+
+.chat_send_div input[type=text] {
+    width: 90%;
+    font-size: 20px;
+    padding: 2% 2%;
+    border-radius: 10px;
+}
+
+.chat_send_div input[type=submit] {
+    width: 95%;
+    font-size: 20px;
+    padding: 2% 2%;
+    border-radius: 10px;
+    background-color: #333333;
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.chat_send_div input[type=submit]:hover {
+    color: #333333;
+    background: none;
+}
+
+.p_start_chat {
+    font-size: 40px;
+    color: #333333;
+    margin-top: 80px;
+}
+
+.p_chat_list {
+    font-size: 30px;
+    color: #1a75ff;
+    margin-top: 80px;
+}
+
+.m_name {
+    color: #b80f0f;
+    font-size: 17px;
+}
